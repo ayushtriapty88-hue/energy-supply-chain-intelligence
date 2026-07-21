@@ -1,0 +1,222 @@
+{
+  "timestamp": "2026-07-20 12:02:43",
+  "scenario": "OPEC+ Emergency Production Cut",
+  "supply_gap_kbd": 549.0,
+  "base_brent": 89.82,
+  "ranked_suppliers": [
+    {
+      "country": "Russia",
+      "grade": "Urals",
+      "route": "Direct",
+      "actual_price": 81.82,
+      "delivery_days": 12,
+      "available_kbd": 800,
+      "sanction_risk": "MEDIUM",
+      "reliability": 0.85,
+      "total_score": 91.5,
+      "score_breakdown": {
+        "price": 45.0,
+        "speed": 15.0,
+        "volume": 20.0,
+        "sanctions": 3,
+        "reliability": 8.5
+      },
+      "compatible_refineries": [
+        "Reliance Jamnagar",
+        "BPCL Kochi"
+      ],
+      "incompatible_refineries": [
+        "Indian Oil Panipat",
+        "HPCL Mumbai",
+        "MRPL Mangalore"
+      ],
+      "refinery_count": 2
+    },
+    {
+      "country": "Angola",
+      "grade": "Cabinda",
+      "route": "Cape of Good Hope",
+      "actual_price": 91.82,
+      "delivery_days": 16,
+      "available_kbd": 150,
+      "sanction_risk": "NONE",
+      "reliability": 0.88,
+      "total_score": 65.9,
+      "score_breakdown": {
+        "price": 20.0,
+        "speed": 11.7,
+        "volume": 5.5,
+        "sanctions": 20,
+        "reliability": 8.8
+      },
+      "compatible_refineries": [
+        "Reliance Jamnagar",
+        "Indian Oil Panipat",
+        "HPCL Mumbai",
+        "BPCL Kochi"
+      ],
+      "incompatible_refineries": [
+        "MRPL Mangalore"
+      ],
+      "refinery_count": 4
+    },
+    {
+      "country": "Nigeria",
+      "grade": "Bonny Light",
+      "route": "Cape of Good Hope",
+      "actual_price": 92.32,
+      "delivery_days": 18,
+      "available_kbd": 200,
+      "sanction_risk": "NONE",
+      "reliability": 0.92,
+      "total_score": 65.2,
+      "score_breakdown": {
+        "price": 18.8,
+        "speed": 10.0,
+        "volume": 7.3,
+        "sanctions": 20,
+        "reliability": 9.2
+      },
+      "compatible_refineries": [
+        "Reliance Jamnagar",
+        "Indian Oil Panipat",
+        "HPCL Mumbai",
+        "MRPL Mangalore"
+      ],
+      "incompatible_refineries": [
+        "BPCL Kochi"
+      ],
+      "refinery_count": 4
+    },
+    {
+      "country": "USA",
+      "grade": "WTI",
+      "route": "Cape of Good Hope",
+      "actual_price": 92.82,
+      "delivery_days": 22,
+      "available_kbd": 300,
+      "sanction_risk": "NONE",
+      "reliability": 0.97,
+      "total_score": 64.8,
+      "score_breakdown": {
+        "price": 17.5,
+        "speed": 6.7,
+        "volume": 10.9,
+        "sanctions": 20,
+        "reliability": 9.7
+      },
+      "compatible_refineries": [
+        "Reliance Jamnagar",
+        "Indian Oil Panipat"
+      ],
+      "incompatible_refineries": [
+        "HPCL Mumbai",
+        "BPCL Kochi",
+        "MRPL Mangalore"
+      ],
+      "refinery_count": 2
+    },
+    {
+      "country": "Canada",
+      "grade": "Heavy Blend",
+      "route": "Pacific",
+      "actual_price": 91.32,
+      "delivery_days": 28,
+      "available_kbd": 200,
+      "sanction_risk": "NONE",
+      "reliability": 0.91,
+      "total_score": 59.3,
+      "score_breakdown": {
+        "price": 21.2,
+        "speed": 1.7,
+        "volume": 7.3,
+        "sanctions": 20,
+        "reliability": 9.1
+      },
+      "compatible_refineries": [
+        "Reliance Jamnagar"
+      ],
+      "incompatible_refineries": [
+        "Indian Oil Panipat",
+        "HPCL Mumbai",
+        "BPCL Kochi",
+        "MRPL Mangalore"
+      ],
+      "refinery_count": 1
+    },
+    {
+      "country": "Brazil",
+      "grade": "Lula",
+      "route": "Atlantic",
+      "actual_price": 93.32,
+      "delivery_days": 25,
+      "available_kbd": 100,
+      "sanction_risk": "NONE",
+      "reliability": 0.9,
+      "total_score": 53.1,
+      "score_breakdown": {
+        "price": 16.2,
+        "speed": 4.2,
+        "volume": 3.6,
+        "sanctions": 20,
+        "reliability": 9.0
+      },
+      "compatible_refineries": [
+        "Reliance Jamnagar",
+        "BPCL Kochi",
+        "MRPL Mangalore"
+      ],
+      "incompatible_refineries": [
+        "Indian Oil Panipat",
+        "HPCL Mumbai"
+      ],
+      "refinery_count": 3
+    }
+  ],
+  "procurement_plan": [
+    {
+      "country": "Russia",
+      "grade": "Urals",
+      "route": "Direct",
+      "actual_price": 81.82,
+      "delivery_days": 12,
+      "available_kbd": 800,
+      "sanction_risk": "MEDIUM",
+      "reliability": 0.85,
+      "total_score": 91.5,
+      "score_breakdown": {
+        "price": 45.0,
+        "speed": 15.0,
+        "volume": 20.0,
+        "sanctions": 3,
+        "reliability": 8.5
+      },
+      "compatible_refineries": [
+        "Reliance Jamnagar",
+        "BPCL Kochi"
+      ],
+      "incompatible_refineries": [
+        "Indian Oil Panipat",
+        "HPCL Mumbai",
+        "MRPL Mangalore"
+      ],
+      "refinery_count": 2,
+      "procure_kbd": 549.0,
+      "covers_percent": 100.0
+    }
+  ],
+  "gap_coverage_pct": 100.0,
+  "shortfall_kbd": 0,
+  "avg_price_paid": 81.82,
+  "daily_cost_mn_usd": 44.9,
+  "premium_mn_usd": -4.4,
+  "executive_summary": {
+    "executive_summary": "Procurement plan covers 100.0% of the 549.0 kbd gap using 1 suppliers at $44.9M/day.",
+    "first_call_to_make": "Contact Russia petroleum ministry immediately",
+    "key_risk": "Delivery delays on longer alternative routes leave the gap open in the interim.",
+    "confidence": "MEDIUM",
+    "estimated_cost_per_day_mn_usd": 44.9,
+    "premium_over_brent_mn_usd": -4.4,
+    "avg_price_paid_usd": 81.82
+  }
+}

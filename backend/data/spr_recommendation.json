@@ -1,0 +1,343 @@
+{
+  "timestamp": "2026-07-20 12:03:39",
+  "scenario": "OPEC+ Emergency Production Cut",
+  "supply_gap_kbd": 549.0,
+  "disruption_days": 180,
+  "alternative_arrival_days": 12,
+  "top_supplier": "Russia",
+  "spr_config": {
+    "total_capacity_mmt": 5.33,
+    "total_capacity_kb": 39000,
+    "min_reserve_days": 3,
+    "locations": {
+      "Visakhapatnam": {
+        "capacity_kb": 9750,
+        "state": "Andhra Pradesh"
+      },
+      "Mangalore": {
+        "capacity_kb": 11250,
+        "state": "Karnataka"
+      },
+      "Padur": {
+        "capacity_kb": 18000,
+        "state": "Karnataka"
+      }
+    },
+    "replenishment_rate_kbd": 200,
+    "approval_required": "Cabinet Committee on Economic Affairs"
+  },
+  "schedule": {
+    "total_stock_kb": 39000,
+    "available_spr_kb": 37050.0,
+    "min_reserve_kb": 15600,
+    "usable_spr_kb": 21450.0,
+    "phase1_total_kb": 6588.0,
+    "phase2_total_kb": 14862.0,
+    "total_spr_used_kb": 21450.0,
+    "phase1_draw_per_day_kbd": 549.0,
+    "phase2_draw_per_day_kbd": 88.5,
+    "replenishment_rate_kbd": 200,
+    "phase1_days": 12,
+    "phase2_days": 168,
+    "spr_exhaustion_day": 39.1,
+    "days_crisis_covered": 39.1,
+    "days_uncovered": 140.9,
+    "replenishment_start_day": 187,
+    "replenishment_days_needed": 107.0,
+    "spr_runs_out_before_alternatives": false,
+    "fully_covers_crisis": false
+  },
+  "timeline": [
+    {
+      "day": 1,
+      "phase": "Phase 1 \u2014 SPR covering full gap",
+      "spr_draw_kbd": 549.0,
+      "alt_supply_kbd": 0.0,
+      "spr_remaining_kb": 20901.0,
+      "spr_days_left": 38.1,
+      "status": "\ud83d\udfe2 STABLE"
+    },
+    {
+      "day": 2,
+      "phase": "Phase 1 \u2014 SPR covering full gap",
+      "spr_draw_kbd": 549.0,
+      "alt_supply_kbd": 0.0,
+      "spr_remaining_kb": 20352.0,
+      "spr_days_left": 37.1,
+      "status": "\ud83d\udfe2 STABLE"
+    },
+    {
+      "day": 3,
+      "phase": "Phase 1 \u2014 SPR covering full gap",
+      "spr_draw_kbd": 549.0,
+      "alt_supply_kbd": 0.0,
+      "spr_remaining_kb": 19803.0,
+      "spr_days_left": 36.1,
+      "status": "\ud83d\udfe2 STABLE"
+    },
+    {
+      "day": 4,
+      "phase": "Phase 1 \u2014 SPR covering full gap",
+      "spr_draw_kbd": 549.0,
+      "alt_supply_kbd": 0.0,
+      "spr_remaining_kb": 19254.0,
+      "spr_days_left": 35.1,
+      "status": "\ud83d\udfe2 STABLE"
+    },
+    {
+      "day": 5,
+      "phase": "Phase 1 \u2014 SPR covering full gap",
+      "spr_draw_kbd": 549.0,
+      "alt_supply_kbd": 0.0,
+      "spr_remaining_kb": 18705.0,
+      "spr_days_left": 34.1,
+      "status": "\ud83d\udfe2 STABLE"
+    },
+    {
+      "day": 6,
+      "phase": "Phase 1 \u2014 SPR covering full gap",
+      "spr_draw_kbd": 549.0,
+      "alt_supply_kbd": 0.0,
+      "spr_remaining_kb": 18156.0,
+      "spr_days_left": 33.1,
+      "status": "\ud83d\udfe2 STABLE"
+    },
+    {
+      "day": 7,
+      "phase": "Phase 1 \u2014 SPR covering full gap",
+      "spr_draw_kbd": 549.0,
+      "alt_supply_kbd": 0.0,
+      "spr_remaining_kb": 17607.0,
+      "spr_days_left": 32.1,
+      "status": "\ud83d\udfe2 STABLE"
+    },
+    {
+      "day": 8,
+      "phase": "Phase 1 \u2014 SPR covering full gap",
+      "spr_draw_kbd": 549.0,
+      "alt_supply_kbd": 0.0,
+      "spr_remaining_kb": 17058.0,
+      "spr_days_left": 31.1,
+      "status": "\ud83d\udfe2 STABLE"
+    },
+    {
+      "day": 9,
+      "phase": "Phase 1 \u2014 SPR covering full gap",
+      "spr_draw_kbd": 549.0,
+      "alt_supply_kbd": 0.0,
+      "spr_remaining_kb": 16509.0,
+      "spr_days_left": 30.1,
+      "status": "\ud83d\udfe2 STABLE"
+    },
+    {
+      "day": 10,
+      "phase": "Phase 1 \u2014 SPR covering full gap",
+      "spr_draw_kbd": 549.0,
+      "alt_supply_kbd": 0.0,
+      "spr_remaining_kb": 15960.0,
+      "spr_days_left": 29.1,
+      "status": "\ud83d\udfe2 STABLE"
+    },
+    {
+      "day": 11,
+      "phase": "Phase 1 \u2014 SPR covering full gap",
+      "spr_draw_kbd": 549.0,
+      "alt_supply_kbd": 0.0,
+      "spr_remaining_kb": 15411.0,
+      "spr_days_left": 28.1,
+      "status": "\ud83d\udfe2 STABLE"
+    },
+    {
+      "day": 12,
+      "phase": "Phase 1 \u2014 SPR covering full gap",
+      "spr_draw_kbd": 549.0,
+      "alt_supply_kbd": 0.0,
+      "spr_remaining_kb": 14862.0,
+      "spr_days_left": 27.1,
+      "status": "\ud83d\udfe2 STABLE"
+    },
+    {
+      "day": 13,
+      "phase": "Phase 2 \u2014 Alternatives arrived, SPR supplementing",
+      "spr_draw_kbd": 88.5,
+      "alt_supply_kbd": 384.3,
+      "spr_remaining_kb": 14774.0,
+      "spr_days_left": 166.9,
+      "status": "\ud83d\udfe2 STABLE"
+    },
+    {
+      "day": 14,
+      "phase": "Phase 2 \u2014 Alternatives arrived, SPR supplementing",
+      "spr_draw_kbd": 88.5,
+      "alt_supply_kbd": 384.3,
+      "spr_remaining_kb": 14685.0,
+      "spr_days_left": 165.9,
+      "status": "\ud83d\udfe2 STABLE"
+    },
+    {
+      "day": 15,
+      "phase": "Phase 2 \u2014 Alternatives arrived, SPR supplementing",
+      "spr_draw_kbd": 88.5,
+      "alt_supply_kbd": 384.3,
+      "spr_remaining_kb": 14596.0,
+      "spr_days_left": 164.9,
+      "status": "\ud83d\udfe2 STABLE"
+    },
+    {
+      "day": 16,
+      "phase": "Phase 2 \u2014 Alternatives arrived, SPR supplementing",
+      "spr_draw_kbd": 88.5,
+      "alt_supply_kbd": 384.3,
+      "spr_remaining_kb": 14508.0,
+      "spr_days_left": 163.9,
+      "status": "\ud83d\udfe2 STABLE"
+    },
+    {
+      "day": 17,
+      "phase": "Phase 2 \u2014 Alternatives arrived, SPR supplementing",
+      "spr_draw_kbd": 88.5,
+      "alt_supply_kbd": 384.3,
+      "spr_remaining_kb": 14420.0,
+      "spr_days_left": 162.9,
+      "status": "\ud83d\udfe2 STABLE"
+    },
+    {
+      "day": 18,
+      "phase": "Phase 2 \u2014 Alternatives arrived, SPR supplementing",
+      "spr_draw_kbd": 88.5,
+      "alt_supply_kbd": 384.3,
+      "spr_remaining_kb": 14331.0,
+      "spr_days_left": 161.9,
+      "status": "\ud83d\udfe2 STABLE"
+    },
+    {
+      "day": 19,
+      "phase": "Phase 2 \u2014 Alternatives arrived, SPR supplementing",
+      "spr_draw_kbd": 88.5,
+      "alt_supply_kbd": 384.3,
+      "spr_remaining_kb": 14242.0,
+      "spr_days_left": 160.9,
+      "status": "\ud83d\udfe2 STABLE"
+    },
+    {
+      "day": 20,
+      "phase": "Phase 2 \u2014 Alternatives arrived, SPR supplementing",
+      "spr_draw_kbd": 88.5,
+      "alt_supply_kbd": 384.3,
+      "spr_remaining_kb": 14154.0,
+      "spr_days_left": 159.9,
+      "status": "\ud83d\udfe2 STABLE"
+    },
+    {
+      "day": 21,
+      "phase": "Phase 2 \u2014 Alternatives arrived, SPR supplementing",
+      "spr_draw_kbd": 88.5,
+      "alt_supply_kbd": 384.3,
+      "spr_remaining_kb": 14066.0,
+      "spr_days_left": 158.9,
+      "status": "\ud83d\udfe2 STABLE"
+    },
+    {
+      "day": 22,
+      "phase": "Phase 2 \u2014 Alternatives arrived, SPR supplementing",
+      "spr_draw_kbd": 88.5,
+      "alt_supply_kbd": 384.3,
+      "spr_remaining_kb": 13977.0,
+      "spr_days_left": 157.9,
+      "status": "\ud83d\udfe2 STABLE"
+    },
+    {
+      "day": 23,
+      "phase": "Phase 2 \u2014 Alternatives arrived, SPR supplementing",
+      "spr_draw_kbd": 88.5,
+      "alt_supply_kbd": 384.3,
+      "spr_remaining_kb": 13888.0,
+      "spr_days_left": 156.9,
+      "status": "\ud83d\udfe2 STABLE"
+    },
+    {
+      "day": 24,
+      "phase": "Phase 2 \u2014 Alternatives arrived, SPR supplementing",
+      "spr_draw_kbd": 88.5,
+      "alt_supply_kbd": 384.3,
+      "spr_remaining_kb": 13800.0,
+      "spr_days_left": 155.9,
+      "status": "\ud83d\udfe2 STABLE"
+    },
+    {
+      "day": 25,
+      "phase": "Phase 2 \u2014 Alternatives arrived, SPR supplementing",
+      "spr_draw_kbd": 88.5,
+      "alt_supply_kbd": 384.3,
+      "spr_remaining_kb": 13712.0,
+      "spr_days_left": 154.9,
+      "status": "\ud83d\udfe2 STABLE"
+    },
+    {
+      "day": 26,
+      "phase": "Phase 2 \u2014 Alternatives arrived, SPR supplementing",
+      "spr_draw_kbd": 88.5,
+      "alt_supply_kbd": 384.3,
+      "spr_remaining_kb": 13623.0,
+      "spr_days_left": 153.9,
+      "status": "\ud83d\udfe2 STABLE"
+    },
+    {
+      "day": 27,
+      "phase": "Phase 2 \u2014 Alternatives arrived, SPR supplementing",
+      "spr_draw_kbd": 88.5,
+      "alt_supply_kbd": 384.3,
+      "spr_remaining_kb": 13534.0,
+      "spr_days_left": 152.9,
+      "status": "\ud83d\udfe2 STABLE"
+    },
+    {
+      "day": 28,
+      "phase": "Phase 2 \u2014 Alternatives arrived, SPR supplementing",
+      "spr_draw_kbd": 88.5,
+      "alt_supply_kbd": 384.3,
+      "spr_remaining_kb": 13446.0,
+      "spr_days_left": 151.9,
+      "status": "\ud83d\udfe2 STABLE"
+    },
+    {
+      "day": 29,
+      "phase": "Phase 2 \u2014 Alternatives arrived, SPR supplementing",
+      "spr_draw_kbd": 88.5,
+      "alt_supply_kbd": 384.3,
+      "spr_remaining_kb": 13358.0,
+      "spr_days_left": 150.9,
+      "status": "\ud83d\udfe2 STABLE"
+    },
+    {
+      "day": 30,
+      "phase": "Phase 2 \u2014 Alternatives arrived, SPR supplementing",
+      "spr_draw_kbd": 88.5,
+      "alt_supply_kbd": 384.3,
+      "spr_remaining_kb": 13269.0,
+      "spr_days_left": 149.9,
+      "status": "\ud83d\udfe2 STABLE"
+    }
+  ],
+  "policy": {
+    "policy_recommendation": "The Petroleum Minister should consider alternative fuel sources to reduce dependence on Russia and explore all available options for bridging the supply gap. Replenishing SPR stock as soon as possible is crucial to mitigate the crisis.",
+    "approval_urgency": "IMMEDIATE",
+    "communication_to_states": "States will be informed of the situation and any additional measures taken by the government.",
+    "replenishment_strategy": "The Cabinet Committee on Economic Affairs has approved a plan to replenish SPR stock with new imports as soon as possible.",
+    "risk_if_delayed": "Delaying replenishment may lead to increased fuel prices, shortages, and economic instability."
+  },
+  "locations": {
+    "Visakhapatnam": {
+      "capacity_kb": 9750,
+      "state": "Andhra Pradesh"
+    },
+    "Mangalore": {
+      "capacity_kb": 11250,
+      "state": "Karnataka"
+    },
+    "Padur": {
+      "capacity_kb": 18000,
+      "state": "Karnataka"
+    }
+  }
+}

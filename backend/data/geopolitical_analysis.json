@@ -1,0 +1,62 @@
+{
+  "timestamp": "2026-07-20 11:48:11",
+  "agent": "GeopoliticalRiskIntelligenceAgent",
+  "overall": {
+    "overall_risk_score": 41.5,
+    "overall_risk_level": "LOW",
+    "executive_summary": "The Strait of Hormuz and Red Sea corridors pose a significant risk due to ongoing tensions in the region, while other corridors show lower risks. This is not a critical situation at present.",
+    "immediate_actions": [
+      "Monitor Middle East developments closely",
+      "Prepare contingency plans for potential disruptions"
+    ],
+    "watch_list": [
+      "Escalating Iran conflict"
+    ]
+  },
+  "corridors": {
+    "strait_of_hormuz": {
+      "corridor": "strait_of_hormuz",
+      "risk_score": 60.0,
+      "risk_level": "MEDIUM",
+      "primary_threat": "Escalation of the Iran-Iranian conflict is increasing the risk of disruption to oil shipments through the Strait of Hormuz.",
+      "historical_precedent": "2019: Tanker attacks by Iranian proxies led to a significant increase in naval presence and heightened tensions in the region.",
+      "recommendation": "India should consider strengthening diplomatic ties with regional nations to enhance cooperation on maritime security.",
+      "confidence": 0.8
+    },
+    "red_sea": {
+      "corridor": "red_sea",
+      "risk_score": 67.5,
+      "risk_level": "HIGH",
+      "primary_threat": "Escalating tensions in the region due to recent news on Iran conflict increase risk of attacks and disruptions.",
+      "historical_precedent": "2023-2024 Houthi Red Sea Attacks (8/10) - Shipping costs increased by +300%, Red Sea traffic decreased by -50%.",
+      "recommendation": "India should consider strengthening its naval presence in the region to deter potential threats and ensure safe passage for vessels.",
+      "confidence": 0.8
+    },
+    "suez_canal": {
+      "corridor": "suez_canal",
+      "risk_score": 5,
+      "risk_level": "LOW",
+      "primary_threat": "Iran conflict affects oil prices and market volatility.",
+      "historical_precedent": "2007 Iran-Iraq maritime incident: A cargo ship was stopped by Iranian authorities, leading to a diplomatic row between the two countries.",
+      "recommendation": "India should diversify its energy imports from non-US sources to mitigate potential disruptions to global crude markets.",
+      "confidence": 0.8
+    },
+    "cape_of_good_hope": {
+      "corridor": "cape_of_good_hope",
+      "risk_score": 24,
+      "risk_level": "LOW",
+      "primary_threat": "Escalation of the Iran conflict is likely to disrupt global oil supplies, increasing risk for ships in the Cape of Good Hope corridor.",
+      "historical_precedent": "The 1973 Arab-Israeli War led to a significant increase in oil prices and supply disruptions, similar to what could be expected if tensions rise again.",
+      "recommendation": "India should maintain close communication with international shipping authorities and allies to ensure early warning systems are activated and vessels are rerouted or escorted when necessary.",
+      "confidence": 0.6
+    }
+  },
+  "historical_matches": {
+    "strait_of_hormuz": [],
+    "red_sea": [
+      "2023-2024 Houthi Red Sea Attacks"
+    ],
+    "suez_canal": [],
+    "cape_of_good_hope": []
+  }
+}

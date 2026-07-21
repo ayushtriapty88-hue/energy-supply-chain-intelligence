@@ -1,0 +1,216 @@
+{
+  "timestamp": "2026-07-20 11:45:43",
+  "combined_risk": {
+    "total_score": 24.7,
+    "level": "LOW",
+    "breakdown": {
+      "ais_component": 11.2,
+      "commodity_component": 3.5,
+      "news_component": 10.0
+    }
+  },
+  "ais": {
+    "overall_risk_score": 28.0,
+    "risk_level": "MEDIUM",
+    "timestamp": "2026-07-20 11:45:41"
+  },
+  "commodities": {
+    "brent_crude": {
+      "price": 74.85,
+      "unit": "USD/barrel",
+      "risk_level": "LOW",
+      "risk_score": 10
+    },
+    "wti_crude": {
+      "price": 71.2,
+      "unit": "USD/barrel",
+      "risk_level": "LOW",
+      "risk_score": 10
+    },
+    "natural_gas": {
+      "price": 2.88,
+      "unit": "USD/MMBtu",
+      "risk_level": "LOW",
+      "risk_score": 10
+    }
+  },
+  "price_alerts": [],
+  "news_count": 38,
+  "news_sample": [
+    {
+      "title": "Middle East re-escalation: worrying implications for investors \u2013 and Andy Burnham",
+      "source": "The Week Magazine"
+    },
+    {
+      "title": "Markets to track Q1 earnings, West Asia developments, crude oil this week",
+      "source": "BusinessLine"
+    },
+    {
+      "title": "Consumers facing winter of discontent amid soaring prices",
+      "source": "RTE"
+    },
+    {
+      "title": "The Escalation Trap: A masterclass in strategic reality",
+      "source": "Naturalnews.com"
+    },
+    {
+      "title": "Vance Accuses Israeli Officials of Campaign to Prolong Iran War",
+      "source": "Naturalnews.com"
+    },
+    {
+      "title": "China\u2019s Oil Inventory Draw Reshapes Global Crude Market During Iran Conflict",
+      "source": "Naturalnews.com"
+    },
+    {
+      "title": "Japan Prioritizes Energy Security Over Climate Targets, Officials Say",
+      "source": "Naturalnews.com"
+    },
+    {
+      "title": "US military launches new airstrikes to 'swiftly punish' Iran for deaths of US troops",
+      "source": "BusinessLine"
+    },
+    {
+      "title": "Nigerian children pay the price for the Iran war as malnutrition and poverty surge",
+      "source": "Abcnews.com"
+    },
+    {
+      "title": "How the Iran War changed the Middle East",
+      "source": "Israelnationalnews.com"
+    },
+    {
+      "title": "US and Iran exchange strikes after two US deaths in Jordan attack",
+      "source": "BBC News"
+    },
+    {
+      "title": "China's role as 'swing importer' cushions oil market spike",
+      "source": "Biztoc.com"
+    },
+    {
+      "title": "Middle East tensions, low inventories drive Brent crude forecast to $96 this year",
+      "source": "Crypto Briefing"
+    },
+    {
+      "title": "Two American soldiers killed in Jordan; US intensifies Iran raids",
+      "source": "Peoplesreview.com.np"
+    },
+    {
+      "title": "US strikes Iran's Revolutionary Guard over attack that killed troops in Jordan",
+      "source": "Abcnews.com"
+    },
+    {
+      "title": "Live updates: Iran war news; US troop deaths raise fears of a wider war as Iran hit by new strikes",
+      "source": "CNN"
+    },
+    {
+      "title": "US hits Iran for eighth consecutive night, Iran returns fire on Gulf bases",
+      "source": "Al Jazeera English"
+    },
+    {
+      "title": "Iran\u2019s Kuwait Water Plant Strike: Oil Prices and Trans-regional War",
+      "source": "Juancole.com"
+    },
+    {
+      "title": "Amundi Says Oil, Gas Crucial to EU Clean Energy Transition",
+      "source": "Rigzone.com: Latest News Headlines"
+    },
+    {
+      "title": "Forgotten Shale Gas Play Reemerges as Oil Hot Spot",
+      "source": "Rigzone.com: Latest News Headlines"
+    },
+    {
+      "title": "Oil Jumps on Fears of Wider Iran War",
+      "source": "Rigzone.com: Latest News Headlines"
+    },
+    {
+      "title": "Chevron, Cheniere Reps Join DOE SEAB Board",
+      "source": "Rigzone.com: Latest News Headlines"
+    },
+    {
+      "title": "BP and Conoco Partner in One of Iraq's Oldest Oilfields",
+      "source": "Rigzone.com: Latest News Headlines"
+    },
+    {
+      "title": "Zelenskyy Picks Energy CEO for Premier",
+      "source": "Rigzone.com: Latest News Headlines"
+    },
+    {
+      "title": "EIA Pushes 2026 USA Oil Output Forecast Closer to 14MM Bpd",
+      "source": "Rigzone.com: Latest News Headlines"
+    },
+    {
+      "title": "Iran-Linked Tankers U-Turn, Zig-Zag",
+      "source": "Rigzone.com: Latest News Headlines"
+    },
+    {
+      "title": "Burnham to Back North Sea Oil",
+      "source": "Rigzone.com: Latest News Headlines"
+    },
+    {
+      "title": "Rystad Outlines 4 Potential USA-Iran Scenarios",
+      "source": "Rigzone.com: Latest News Headlines"
+    },
+    {
+      "title": "Oil Ends Lower but Holds Weekly Gains",
+      "source": "Rigzone.com: Latest News Headlines"
+    },
+    {
+      "title": "SLB, Liberty Agree to Form Data Center Alliance",
+      "source": "Rigzone.com: Latest News Headlines"
+    },
+    {
+      "title": "TotalEnergies Sees Strong Oil Trading",
+      "source": "Rigzone.com: Latest News Headlines"
+    },
+    {
+      "title": "Ukraine Hit 2 Large Russia-Linked Oil Tankers in Black Sea",
+      "source": "Rigzone.com: Latest News Headlines"
+    },
+    {
+      "title": "Analysts Examine Hormuz Crossings",
+      "source": "Rigzone.com: Latest News Headlines"
+    },
+    {
+      "title": "USA Crude Oil Stocks Drop Almost 2MM Barrels WoW",
+      "source": "Rigzone.com: Latest News Headlines"
+    },
+    {
+      "title": "India Bars Seafarers from Hormuz Voyages",
+      "source": "Rigzone.com: Latest News Headlines"
+    },
+    {
+      "title": "USA-Iran Skirmishes Worsen as Hormuz Traffic Dwindles",
+      "source": "Rigzone.com: Latest News Headlines"
+    },
+    {
+      "title": "Oil Settles Higher",
+      "source": "Rigzone.com: Latest News Headlines"
+    },
+    {
+      "title": "USA EIA Raises Henry Hub Price Forecast for 2026, 2027",
+      "source": "Rigzone.com: Latest News Headlines"
+    }
+  ],
+  "corridors": {
+    "strait_of_hormuz": {
+      "risk_score": 40.0,
+      "vessels_moving": 3,
+      "vessels_stopped": 2
+    },
+    "red_sea": {
+      "risk_score": 33.3,
+      "vessels_moving": 2,
+      "vessels_stopped": 1
+    },
+    "suez_canal": {
+      "risk_score": 0.0,
+      "vessels_moving": 2,
+      "vessels_stopped": 0
+    },
+    "cape_of_good_hope": {
+      "risk_score": 0.0,
+      "vessels_moving": 4,
+      "vessels_stopped": 0
+    }
+  },
+  "active_sanctions": 4
+}

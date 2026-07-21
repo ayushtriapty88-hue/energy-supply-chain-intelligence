@@ -1,0 +1,347 @@
+{
+  "timestamp": "2026-07-20 12:03:41",
+  "version": "1.0",
+  "master_risk": {
+    "score": 41.5,
+    "level": "LOW",
+    "executive_summary": "The Strait of Hormuz and Red Sea corridors pose a significant risk due to ongoing tensions in the region, while other corridors show lower risks. This is not a critical situation at present.",
+    "watch_list": [
+      "Escalating Iran conflict"
+    ]
+  },
+  "corridors": {
+    "strait_of_hormuz": {
+      "risk_score": 40.0,
+      "risk_level": "MEDIUM",
+      "vessels_moving": 3,
+      "vessels_stopped": 2,
+      "primary_threat": "Escalation of the Iran-Iranian conflict is increasing the risk of disruption to oil shipments through the Strait of Hormuz.",
+      "recommendation": "India should consider strengthening diplomatic ties with regional nations to enhance cooperation on maritime security."
+    },
+    "red_sea": {
+      "risk_score": 33.3,
+      "risk_level": "HIGH",
+      "vessels_moving": 2,
+      "vessels_stopped": 1,
+      "primary_threat": "Escalating tensions in the region due to recent news on Iran conflict increase risk of attacks and disruptions.",
+      "recommendation": "India should consider strengthening its naval presence in the region to deter potential threats and ensure safe passage for vessels."
+    },
+    "suez_canal": {
+      "risk_score": 0.0,
+      "risk_level": "LOW",
+      "vessels_moving": 2,
+      "vessels_stopped": 0,
+      "primary_threat": "Iran conflict affects oil prices and market volatility.",
+      "recommendation": "India should diversify its energy imports from non-US sources to mitigate potential disruptions to global crude markets."
+    },
+    "cape_of_good_hope": {
+      "risk_score": 0.0,
+      "risk_level": "LOW",
+      "vessels_moving": 4,
+      "vessels_stopped": 0,
+      "primary_threat": "Escalation of the Iran conflict is likely to disrupt global oil supplies, increasing risk for ships in the Cape of Good Hope corridor.",
+      "recommendation": "India should maintain close communication with international shipping authorities and allies to ensure early warning systems are activated and vessels are rerouted or escorted when necessary."
+    }
+  },
+  "commodities": {
+    "brent_crude": {
+      "price": 74.85,
+      "unit": "USD/barrel",
+      "risk_level": "LOW",
+      "risk_score": 10
+    },
+    "wti_crude": {
+      "price": 71.2,
+      "unit": "USD/barrel",
+      "risk_level": "LOW",
+      "risk_score": 10
+    },
+    "natural_gas": {
+      "price": 2.88,
+      "unit": "USD/MMBtu",
+      "risk_level": "LOW",
+      "risk_score": 10
+    }
+  },
+  "active_scenario": {
+    "name": "OPEC+ Emergency Production Cut",
+    "supply_cut": 12,
+    "duration_days": 180,
+    "supply_gap_kbd": 549.0,
+    "new_brent": 89.82,
+    "additional_cost_bn": 10.85,
+    "spr_days": 90.0,
+    "response_plan": {
+      "situation_assessment": "OPEC+ Emergency Production Cut opens a 549.0 kbd supply gap, leaving 90.0 days uncovered after SPR drawdown.",
+      "day_1_actions": [
+        "Activate SPR drawdown",
+        "Convene emergency cabinet meeting",
+        "Contact alternative suppliers"
+      ],
+      "week_1_actions": [
+        "Negotiate spot contracts",
+        "Activate Cape of Good Hope route",
+        "Reduce non-essential consumption"
+      ],
+      "month_1_actions": [
+        "Sign long-term supply agreements",
+        "Accelerate renewable substitution"
+      ],
+      "spr_recommendation": "Release SPR at a rate covering the 549.0 kbd gap for up to 90.0 days.",
+      "top_alternative_supplier": "USA",
+      "key_risk": "Alternative capacity is insufficient to fully close the gap before SPR runs out.",
+      "confidence": "MEDIUM",
+      "estimated_stabilisation_days": 180,
+      "risk_to_gdp_percent": 0.278
+    }
+  },
+  "procurement": {
+    "gap_coverage_pct": 100.0,
+    "top_suppliers": [
+      "Russia"
+    ],
+    "total_suppliers": 1,
+    "summary": "Procurement plan covers 100.0% of the 549.0 kbd gap using 1 suppliers at $44.9M/day.",
+    "daily_cost_mn": 44.9
+  },
+  "spr": {
+    "usable_kbd": 0,
+    "phase1_draw_kbd": 549.0,
+    "total_used_kbd": 0,
+    "replenishment_day": 187,
+    "policy": "The Petroleum Minister should consider alternative fuel sources to reduce dependence on Russia and explore all available options for bridging the supply gap. Replenishing SPR stock as soon as possible is crucial to mitigate the crisis.",
+    "approval_urgency": "IMMEDIATE",
+    "locations": [
+      "Visakhapatnam",
+      "Mangalore",
+      "Padur"
+    ],
+    "timeline": [
+      {
+        "day": 1,
+        "phase": "Phase 1 \u2014 SPR covering full gap",
+        "spr_draw_kbd": 549.0,
+        "alt_supply_kbd": 0.0,
+        "spr_remaining_kb": 20901.0,
+        "spr_days_left": 38.1,
+        "status": "\ud83d\udfe2 STABLE"
+      },
+      {
+        "day": 2,
+        "phase": "Phase 1 \u2014 SPR covering full gap",
+        "spr_draw_kbd": 549.0,
+        "alt_supply_kbd": 0.0,
+        "spr_remaining_kb": 20352.0,
+        "spr_days_left": 37.1,
+        "status": "\ud83d\udfe2 STABLE"
+      },
+      {
+        "day": 3,
+        "phase": "Phase 1 \u2014 SPR covering full gap",
+        "spr_draw_kbd": 549.0,
+        "alt_supply_kbd": 0.0,
+        "spr_remaining_kb": 19803.0,
+        "spr_days_left": 36.1,
+        "status": "\ud83d\udfe2 STABLE"
+      },
+      {
+        "day": 4,
+        "phase": "Phase 1 \u2014 SPR covering full gap",
+        "spr_draw_kbd": 549.0,
+        "alt_supply_kbd": 0.0,
+        "spr_remaining_kb": 19254.0,
+        "spr_days_left": 35.1,
+        "status": "\ud83d\udfe2 STABLE"
+      },
+      {
+        "day": 5,
+        "phase": "Phase 1 \u2014 SPR covering full gap",
+        "spr_draw_kbd": 549.0,
+        "alt_supply_kbd": 0.0,
+        "spr_remaining_kb": 18705.0,
+        "spr_days_left": 34.1,
+        "status": "\ud83d\udfe2 STABLE"
+      },
+      {
+        "day": 6,
+        "phase": "Phase 1 \u2014 SPR covering full gap",
+        "spr_draw_kbd": 549.0,
+        "alt_supply_kbd": 0.0,
+        "spr_remaining_kb": 18156.0,
+        "spr_days_left": 33.1,
+        "status": "\ud83d\udfe2 STABLE"
+      },
+      {
+        "day": 7,
+        "phase": "Phase 1 \u2014 SPR covering full gap",
+        "spr_draw_kbd": 549.0,
+        "alt_supply_kbd": 0.0,
+        "spr_remaining_kb": 17607.0,
+        "spr_days_left": 32.1,
+        "status": "\ud83d\udfe2 STABLE"
+      }
+    ]
+  },
+  "news": {
+    "total_articles": 38,
+    "sample": [
+      {
+        "title": "Middle East re-escalation: worrying implications for investors \u2013 and Andy Burnham",
+        "source": "The Week Magazine"
+      },
+      {
+        "title": "Markets to track Q1 earnings, West Asia developments, crude oil this week",
+        "source": "BusinessLine"
+      },
+      {
+        "title": "Consumers facing winter of discontent amid soaring prices",
+        "source": "RTE"
+      },
+      {
+        "title": "The Escalation Trap: A masterclass in strategic reality",
+        "source": "Naturalnews.com"
+      },
+      {
+        "title": "Vance Accuses Israeli Officials of Campaign to Prolong Iran War",
+        "source": "Naturalnews.com"
+      },
+      {
+        "title": "China\u2019s Oil Inventory Draw Reshapes Global Crude Market During Iran Conflict",
+        "source": "Naturalnews.com"
+      },
+      {
+        "title": "Japan Prioritizes Energy Security Over Climate Targets, Officials Say",
+        "source": "Naturalnews.com"
+      },
+      {
+        "title": "US military launches new airstrikes to 'swiftly punish' Iran for deaths of US troops",
+        "source": "BusinessLine"
+      },
+      {
+        "title": "Nigerian children pay the price for the Iran war as malnutrition and poverty surge",
+        "source": "Abcnews.com"
+      },
+      {
+        "title": "How the Iran War changed the Middle East",
+        "source": "Israelnationalnews.com"
+      },
+      {
+        "title": "US and Iran exchange strikes after two US deaths in Jordan attack",
+        "source": "BBC News"
+      },
+      {
+        "title": "China's role as 'swing importer' cushions oil market spike",
+        "source": "Biztoc.com"
+      },
+      {
+        "title": "Middle East tensions, low inventories drive Brent crude forecast to $96 this year",
+        "source": "Crypto Briefing"
+      },
+      {
+        "title": "Two American soldiers killed in Jordan; US intensifies Iran raids",
+        "source": "Peoplesreview.com.np"
+      },
+      {
+        "title": "US strikes Iran's Revolutionary Guard over attack that killed troops in Jordan",
+        "source": "Abcnews.com"
+      },
+      {
+        "title": "Live updates: Iran war news; US troop deaths raise fears of a wider war as Iran hit by new strikes",
+        "source": "CNN"
+      },
+      {
+        "title": "US hits Iran for eighth consecutive night, Iran returns fire on Gulf bases",
+        "source": "Al Jazeera English"
+      },
+      {
+        "title": "Iran\u2019s Kuwait Water Plant Strike: Oil Prices and Trans-regional War",
+        "source": "Juancole.com"
+      },
+      {
+        "title": "Amundi Says Oil, Gas Crucial to EU Clean Energy Transition",
+        "source": "Rigzone.com: Latest News Headlines"
+      },
+      {
+        "title": "Forgotten Shale Gas Play Reemerges as Oil Hot Spot",
+        "source": "Rigzone.com: Latest News Headlines"
+      },
+      {
+        "title": "Oil Jumps on Fears of Wider Iran War",
+        "source": "Rigzone.com: Latest News Headlines"
+      },
+      {
+        "title": "Chevron, Cheniere Reps Join DOE SEAB Board",
+        "source": "Rigzone.com: Latest News Headlines"
+      },
+      {
+        "title": "BP and Conoco Partner in One of Iraq's Oldest Oilfields",
+        "source": "Rigzone.com: Latest News Headlines"
+      },
+      {
+        "title": "Zelenskyy Picks Energy CEO for Premier",
+        "source": "Rigzone.com: Latest News Headlines"
+      },
+      {
+        "title": "EIA Pushes 2026 USA Oil Output Forecast Closer to 14MM Bpd",
+        "source": "Rigzone.com: Latest News Headlines"
+      },
+      {
+        "title": "Iran-Linked Tankers U-Turn, Zig-Zag",
+        "source": "Rigzone.com: Latest News Headlines"
+      },
+      {
+        "title": "Burnham to Back North Sea Oil",
+        "source": "Rigzone.com: Latest News Headlines"
+      },
+      {
+        "title": "Rystad Outlines 4 Potential USA-Iran Scenarios",
+        "source": "Rigzone.com: Latest News Headlines"
+      },
+      {
+        "title": "Oil Ends Lower but Holds Weekly Gains",
+        "source": "Rigzone.com: Latest News Headlines"
+      },
+      {
+        "title": "SLB, Liberty Agree to Form Data Center Alliance",
+        "source": "Rigzone.com: Latest News Headlines"
+      },
+      {
+        "title": "TotalEnergies Sees Strong Oil Trading",
+        "source": "Rigzone.com: Latest News Headlines"
+      },
+      {
+        "title": "Ukraine Hit 2 Large Russia-Linked Oil Tankers in Black Sea",
+        "source": "Rigzone.com: Latest News Headlines"
+      },
+      {
+        "title": "Analysts Examine Hormuz Crossings",
+        "source": "Rigzone.com: Latest News Headlines"
+      },
+      {
+        "title": "USA Crude Oil Stocks Drop Almost 2MM Barrels WoW",
+        "source": "Rigzone.com: Latest News Headlines"
+      },
+      {
+        "title": "India Bars Seafarers from Hormuz Voyages",
+        "source": "Rigzone.com: Latest News Headlines"
+      },
+      {
+        "title": "USA-Iran Skirmishes Worsen as Hormuz Traffic Dwindles",
+        "source": "Rigzone.com: Latest News Headlines"
+      },
+      {
+        "title": "Oil Settles Higher",
+        "source": "Rigzone.com: Latest News Headlines"
+      },
+      {
+        "title": "USA EIA Raises Henry Hub Price Forecast for 2026, 2027",
+        "source": "Rigzone.com: Latest News Headlines"
+      }
+    ],
+    "price_alerts": []
+  },
+  "immediate_actions": [
+    "Monitor Middle East developments closely",
+    "Prepare contingency plans for potential disruptions"
+  ]
+}

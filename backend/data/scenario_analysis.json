@@ -1,0 +1,84 @@
+{
+  "timestamp": "2026-07-20 12:02:01",
+  "scenario_key": "opec_emergency_cut",
+  "scenario": {
+    "name": "OPEC+ Emergency Production Cut",
+    "description": "OPEC+ announces emergency 2mb/d production cut",
+    "supply_cut_percent": 12,
+    "affected_corridor": "none",
+    "duration_days": 180,
+    "price_shock_percent": 20,
+    "severity": 8
+  },
+  "impact": {
+    "daily_import_kbd": 4576.0,
+    "supply_gap_kbd": 549.0,
+    "supply_gap_percent": 10.6,
+    "spr_stock_kb": 49400.0,
+    "spr_covers_days": 90.0,
+    "gap_after_spr_days": 90.0,
+    "new_brent_price": 89.82,
+    "price_increase_usd": 14.97,
+    "price_cost_per_day_mn": 60.3,
+    "replacement_cost_per_day_mn": 49.3,
+    "total_cost_per_day_mn": 109.6,
+    "additional_cost_bn_usd": 10.85,
+    "baseline_refinery_util_pct": 85.0,
+    "refinery_utilisation_pct": 74.0,
+    "risk_to_gdp_percent": 0.278,
+    "petrol_increase_usd_bbl": 8.98,
+    "diesel_increase_usd_bbl": 8.23
+  },
+  "alternatives": [
+    {
+      "supplier": "USA",
+      "grade": "WTI",
+      "route": "Cape of Good Hope",
+      "extra_days": 10,
+      "available_kbd": 400
+    },
+    {
+      "supplier": "Canada",
+      "grade": "Heavy Blend",
+      "route": "Pacific",
+      "extra_days": 15,
+      "available_kbd": 200
+    },
+    {
+      "supplier": "Brazil",
+      "grade": "Lula",
+      "route": "Atlantic",
+      "extra_days": 12,
+      "available_kbd": 200
+    }
+  ],
+  "total_alternative_kbd": 800,
+  "alternative_shortfall_kbd": 0.0,
+  "response_plan": {
+    "situation_assessment": "OPEC+ Emergency Production Cut opens a 549.0 kbd supply gap, leaving 90.0 days uncovered after SPR drawdown.",
+    "day_1_actions": [
+      "Activate SPR drawdown",
+      "Convene emergency cabinet meeting",
+      "Contact alternative suppliers"
+    ],
+    "week_1_actions": [
+      "Negotiate spot contracts",
+      "Activate Cape of Good Hope route",
+      "Reduce non-essential consumption"
+    ],
+    "month_1_actions": [
+      "Sign long-term supply agreements",
+      "Accelerate renewable substitution"
+    ],
+    "spr_recommendation": "Release SPR at a rate covering the 549.0 kbd gap for up to 90.0 days.",
+    "top_alternative_supplier": "USA",
+    "key_risk": "Alternative capacity is insufficient to fully close the gap before SPR runs out.",
+    "confidence": "MEDIUM",
+    "estimated_stabilisation_days": 180,
+    "risk_to_gdp_percent": 0.278
+  },
+  "historical_precedents": [
+    "OPEC+ Emergency Production Cut 2023",
+    "2025 US-Iran Standoff \u2014 Brent Spike"
+  ]
+}
